@@ -17,20 +17,20 @@
 ##a.append(10)
 ##print(b, "after")
 
-##numbers= [1,2,3,4,5,6,7,8,9,10]
-##
-##even = []
-##odd = []
-##
-##for i in numbers:
-##    if i % 2 == 0:
-##        even.append(i)
-##    else:
-##        odd.append(i)
-##
-##print("Even number:", even)
-##print("Odd number:", odd) 
+numbers= [1,2,3,4,5,6,7,8,9,10]
+
+even = []
+odd = []
+
+for i in numbers:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print("Even number:", even)
+print("Odd number:", odd) 
 
 
-a = "Python programmer"
-print(a[-17::-1])
+##a = "Python programmer"
+##print(a[-17::-1])
